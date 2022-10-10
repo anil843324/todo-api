@@ -4,8 +4,12 @@ const mongoose = require("mongoose");
 
 const ListModel = require("./models/Lists");
 
+const cors = require("cors");
+
+
 const app = express();
 
+app.use(cors());
 // mongodb connect
 mongoose
   .connect(
