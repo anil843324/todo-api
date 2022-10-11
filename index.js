@@ -70,4 +70,4 @@ app.listen(port, () => {
   console.log(`server runing on ${port}...`);
 });
 
-//mongodb+srv://anildb:<password>@cluster0.apysrix.mongodb.net/?retryWrites=true&w=majority
+
